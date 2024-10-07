@@ -93,8 +93,6 @@ def menu():
         case _:
             print("Неверный ввод")
 
-import pytest
-
 def test_find_max_min():
     # Тест для нахождения максимума
     assert find_max_min([1, 2, 3, 4, 5]) == 5
